@@ -21,7 +21,7 @@ document.querySelectorAll('h2')[2].style.color = 'red';
 console.log( document.querySelector('a') );
 
 //Vi sätter attributet href till en ny länk
-document.querySelector('a').setAttribute('href', 'https://esportal.com/sv/home');
+document.querySelector('a').setAttribute('href', 'https://github.com/robingrit');
 
 //dubbelkollar så att vi hämtar nav-elementet
 //vi använder css-selektorn för id
@@ -39,9 +39,6 @@ document.querySelector('#header-navigation').appendChild( document.createElement
 //nedan är ett element
 document.querySelector('img');
 
-//Det som loggas med console.log är information för oss
-console.log('bra fråga Michaela');
-console.log(333);
 
 //Nedan två rader hämtar båda samma element med två olika metoder
 console.log( document.querySelector('#header-navigation') );
